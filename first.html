@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        background-color: lightpink;
+    }
+    p{
+        color:gray;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30px;
+        font-size: large;
+        text-transform: capitalize;
+    }
+    h1{
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    #main{
+        /* border:1px solid red; */
+        width: 90%;
+        margin:auto;
+        display: grid;
+        grid-template-columns: repeat(8,1fr);
+        grid-template-rows: repeat(2,100px);
+        gap:40px;
+        
+        /* margin-bottom: 150px;         */
+      
+    }
+    #main>div{
+        /* margin-top:30px; */
+        /* display:flex; */
+        /* border:1px solid black; */
+        border-radius: 20px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        /* border-radius: 20px;
+        padding: 40px;
+        justify-content: center;
+        align-items: center;   */
+    }
+    div>img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    button{
+        display: block;
+        margin: auto;
+        margin-top:30px;
+        border: 1px solid red;
+        color: red;
+        border-radius: 20px;
+        padding:20px;
+    }
+    
+
+    </style>
+ 
+</head>
+<body>
+    <!-- parent div  -->
+    <p>have a dream company in mind? </p>
+    <h1>meet our 700+ hiring parteners</h1>
+    <div id="main">
+     <div>
+         <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/dream11_d6c8d97a52.svg" alt="">
+     </div>
+     <div>
+        <img src="https://masai-website-images.s3.ap-south-1.amazonaws.com/dream11_d6c8d97a52.svg" alt="">
+     </div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     <div></div>
+     
+    </div>
+    <button>see more parteners ></button>
+    
+</body>
+</html>
